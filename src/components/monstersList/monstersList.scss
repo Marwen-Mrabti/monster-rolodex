@@ -1,0 +1,25 @@
+.monsters__list {
+  // background-color: #f3f0ff;
+  // background-image: linear-gradient(to bottom right, #51cf66, #69db7c, #b2f2bb);
+
+  min-height: max-content;
+  width: 95%;
+  // height: 90vh;
+  margin-top: 3rem;
+  padding: 3rem;
+
+  text-decoration: none;
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  // placement of all grid items along X axis  in reference to container
+  justify-content: center;
+  // placement of all grid items along Y axis  in reference to container
+  align-content: start;
+  // placement of grid item along X axis  in reference to its row
+  justify-items: stretch;
+  // placement of grid item along Y axis  in reference to its column
+  align-items: center;
+  gap: 2rem;
+}

@@ -1,0 +1,14 @@
+.search__box {
+  width: 35%;
+  &-input {
+    width: 100%;
+    padding: 1rem 3rem;
+    outline: none;
+    border-radius: 1rem;
+    text-align: center;
+
+    &:focus {
+      transform: translateY(-0.2rem);
+    }
+  }
+}
